@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="main_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="100.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="251"></NameColumnWidth>
+      <ValueColumnWidth column_width="77"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/main_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/dut_clk" type="logic">
+      <obj_property name="ElementShortName">dut_clk</obj_property>
+      <obj_property name="ObjectShortName">dut_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/dut_reset" type="logic">
+      <obj_property name="ElementShortName">dut_reset</obj_property>
+      <obj_property name="ObjectShortName">dut_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/instr_IF" type="array">
+      <obj_property name="ElementShortName">instr_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/opcode_ID" type="array">
+      <obj_property name="ElementShortName">opcode_ID[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_ID[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/IDEX_opcode" type="array">
+      <obj_property name="ElementShortName">IDEX_opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/EXMEM_opcode" type="array">
+      <obj_property name="ElementShortName">EXMEM_opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/MEMWB_opcode" type="array">
+      <obj_property name="ElementShortName">MEMWB_opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/MEMWB_alu" type="array">
+      <obj_property name="ElementShortName">MEMWB_alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/wb_result" type="array">
+      <obj_property name="ElementShortName">wb_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/ID_inst/regs" type="array">
+      <obj_property name="ElementShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/WB_inst/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/EXMEM_alu" type="array">
+      <obj_property name="ElementShortName">EXMEM_alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/ID_inst/write_reg" type="array">
+      <obj_property name="ElementShortName">write_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/alu_EX" type="array">
+      <obj_property name="ElementShortName">alu_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/MEM_inst/alu_in" type="array">
+      <obj_property name="ElementShortName">alu_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/MEM_inst/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/MEM_inst/dmem" type="array">
+      <obj_property name="ElementShortName">dmem[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/MEM_inst/opcode_r" type="array">
+      <obj_property name="ElementShortName">opcode_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/ID_inst/jaddr" type="array">
+      <obj_property name="ElementShortName">jaddr[25:0]</obj_property>
+      <obj_property name="ObjectShortName">jaddr[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/EX_inst/rs_data" type="array">
+      <obj_property name="ElementShortName">rs_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/DUT/EX_inst/imm" type="array">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+   </wvobject>
+</wave_config>
